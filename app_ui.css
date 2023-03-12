@@ -1,0 +1,51 @@
+ValueBlock {
+    layout: horizontal;
+    background: rgba(100, 98, 98, 0.4);
+    margin: 1 0 0 0;
+    min-width: 50;
+    padding: 0;
+}
+
+SwitchBlock{
+    layout: horizontal;
+    background: rgba(236, 122, 122, 0.4);
+    margin: 1 0 0 0;
+    min-width: 50;
+    padding: 0;
+}
+
+Button {
+    min-width: 5;
+    min-height: 1;
+    height: 1;
+    width: 10;
+    padding: 0;
+}
+
+#plus {
+    dock: right;
+    margin: 0 12 0 0;
+}
+
+#minus {
+    dock: right;
+}
+
+#lable {
+    dock: left;
+    margin: 1 0 0 1;
+    text-style: bold;
+}
+
+#value {
+    dock: left;
+    align-horizontal: center;
+    margin: 1 0 0 0;
+    text-align: center;
+    color: white;
+    width: 50vw;
+}
+
+#send{
+    dock: right;
+}
